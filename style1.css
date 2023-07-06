@@ -1,0 +1,107 @@
+h1{
+  color: blue;
+  font-size: 30px;
+  font-family: arial;
+}
+img{
+  width: 500px;
+}
+#bannerDesc > p {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.name{
+  font-size: 32px;
+  letter-spacing: 10px;
+}
+.map{
+  height: 400px;
+}
+.post{
+  width: 220;
+  height: 294;
+  object-fit: cover;
+  border-radius: 20px;
+}
+#banner{
+  width:100%;
+  position:relative;
+}
+#bannerDesc{
+  width: 45%;
+  height: 30vh;
+  padding: 3%;
+  text-align: justify;
+  border-radius: 20px;
+  position:absolute;
+  top: 35%;
+  left: 40%;
+  color: white;
+}
+.desc{
+  margin:2%
+  padding:2%
+}
+
+.box{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top:2%;
+}
+social{
+  width:60px;
+  height:60px;
+  padding:1%;
+}
+header{
+  font-size:25px;
+  fontweight:bold;
+  margin-bottom:2%;
+}
+#contactbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
